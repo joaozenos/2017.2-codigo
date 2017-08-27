@@ -2,16 +2,16 @@ package atividade1;
 
 import java.io.File;
 
-/* Após implementar as suas regras léxicas no arquivo exemplo.jflex que está em src/main/resources, rode essa classe "Gerador"
-   e então a classe Minijava será gerada na pasta resources.
+/* Apï¿½s implementar as suas regras lï¿½xicas no arquivo exemplo.jflex que estï¿½ em src/main/resources, rode essa classe "Gerador"
+   e entï¿½o a classe Minijava serï¿½ gerada na pasta resources.
  */
-/* Não há necessidade de alterar nada nesta classe, apenas rodá-la. */
+/* Nï¿½o hï¿½ necessidade de alterar nada nesta classe, apenas rodï¿½-la. */
 
 public class Gerador {
 		public static void main(String[] args) {
-			String loginAluno = "exemplo";  
+			String loginAluno = "jlan";  
 			String path = "src/main/resources/";   
-			String arquivo = path + loginAluno + "jflex";    
+			String arquivo = path + loginAluno + ".jflex";    
 			File file = new File(arquivo);	
 			jflex.Main.generate(file);	
 		}

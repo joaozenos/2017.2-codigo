@@ -79,8 +79,8 @@ System.out.println      { System.out.println("Token System.out.println"); }
 /* General */
 
 {whitespace}		{ /* Do Nothing */ }
-{line_comment}		{ System.out.println("Token LINE_COMMENT"); }
-{block_comment}		{ System.out.println("Token BLOCK_COMMENT"); }
+{line_comment}		{ /* Do Nothing */ }
+{block_comment}		{ /* Do Nothing */ }
 {identifier}		{ System.out.println("Token ID"); }
 {literal_integer}	{ System.out.println("Token LITERAL_INTEGER");}
      
